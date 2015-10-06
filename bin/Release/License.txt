@@ -1,0 +1,3 @@
+ZetaCalc is offered free of charge in the hope that it might be useful.  Its author and publisher accepts no liability for any damages, real or imagined, that might result from the use of the software.
+
+ZetaCalc is copyright 2013 Zeta Centauri.  It is free software and may be distributed freely.
