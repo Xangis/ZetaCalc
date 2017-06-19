@@ -1,7 +1,8 @@
 # ZetaCalc
 
 A simple calculator app, not as nice as the free one that comes with Windows.
-This was originally released at http://zetacentauri.com
+This was originally released at http://zetacentauri.com and was downloaded more
+than 5000 times before being open sourced.
 
 ![ZetaCalc Screenshot](https://github.com/Xangis/ZetaCalc/blob/master/images/ZetaCalc1.png)
 
