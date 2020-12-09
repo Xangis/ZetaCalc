@@ -379,7 +379,7 @@ namespace LambdaCalc
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Lambda Calc is Copyright 2013-2020 Lambda Centauri\nLambda Calc is free software.\n\nWritten by Jason Champion\n\nhttps://lambdacentauri.com", "About Lambda Calc 1.01");
+            MessageBox.Show("Lambda Calc is Copyright 2013-2020 Lambda Centauri\nLambda Calc is free software.\n\nWritten by Jason Champion\n\nhttps://lambdacentauri.com", "About Lambda Calc 1.02");
         }
 
         private void history1ToolStripMenuItem_Click(object sender, EventArgs e)

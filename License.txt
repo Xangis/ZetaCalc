@@ -1,0 +1,3 @@
+Lambda Calc is offered free of charge in the hope that it might be useful.  Its author and publisher accepts no liability for any damages, real or imagined, that might result from the use of the software.
+
+Lambda Calc is copyright 2013-2020 Lambda Centauri.  It is free software and may be distributed freely.
