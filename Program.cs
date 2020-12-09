@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ZetaCalc
+namespace LambdaCalc
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace ZetaCalc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ZetaCalc());
+            Application.Run(new LambdaCalc());
         }
     }
 }

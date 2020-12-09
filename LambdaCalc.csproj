@@ -8,8 +8,8 @@
     <ProjectGuid>{C49FD3F7-FEF5-4679-AA21-B988F512AE0F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZetaCalc</RootNamespace>
-    <AssemblyName>ZetaCalc</AssemblyName>
+    <RootNamespace>LambdaCalc</RootNamespace>
+    <AssemblyName>LambdaCalc</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,16 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ZetaCalc.cs">
+    <Compile Include="LambdaCalc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ZetaCalc.Designer.cs">
-      <DependentUpon>ZetaCalc.cs</DependentUpon>
+    <Compile Include="LambdaCalc.Designer.cs">
+      <DependentUpon>LambdaCalc.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ZetaCalc.resx">
-      <DependentUpon>ZetaCalc.cs</DependentUpon>
+    <EmbeddedResource Include="LambdaCalc.resx">
+      <DependentUpon>LambdaCalc.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

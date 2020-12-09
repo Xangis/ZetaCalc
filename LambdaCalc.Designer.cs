@@ -1,6 +1,6 @@
-﻿namespace ZetaCalc
+﻿namespace LambdaCalc
 {
-    partial class ZetaCalc
+    partial class LambdaCalc
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZetaCalc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LambdaCalc));
             this.btn1 = new System.Windows.Forms.Button();
             this.txtValue = new System.Windows.Forms.TextBox();
             this.btn2 = new System.Windows.Forms.Button();
@@ -376,7 +376,7 @@
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // ZetaCalc
+            // LambdaCalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -406,8 +406,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "ZetaCalc";
-            this.Text = "ZetaCalc";
+            this.Name = "LambdaCalc";
+            this.Text = "LambdaCalc";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

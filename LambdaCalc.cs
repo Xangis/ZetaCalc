@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ZetaCalc
+namespace LambdaCalc
 {
-    public partial class ZetaCalc : Form
+    public partial class LambdaCalc : Form
     {
         List<Decimal> history = new List<Decimal>();
         Decimal value;
@@ -30,10 +30,10 @@ namespace ZetaCalc
             Invert
         }
 
-        public ZetaCalc()
+        public LambdaCalc()
         {
             InitializeComponent();
-            this.KeyPress += new KeyPressEventHandler(ZetaCalc_KeyPress);
+            this.KeyPress += new KeyPressEventHandler(LambdaCalc_KeyPress);
             this.KeyPreview = true;
             this.AcceptButton = this.btnEquals;
         }
@@ -379,7 +379,7 @@ namespace ZetaCalc
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ZetaCalc is Copyright 2013 Zeta Centauri\nZetaCalc is free software.\n\nWritten by Jason Champion\n\nhttp://zetacentauri.com", "About ZetaCalc 1.01");
+            MessageBox.Show("Lambda Calc is Copyright 2013-2020 Lambda Centauri\nLambda Calc is free software.\n\nWritten by Jason Champion\n\nhttps://lambdacentauri.com", "About Lambda Calc 1.01");
         }
 
         private void history1ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -446,7 +446,7 @@ namespace ZetaCalc
             decimalPlaces = 0;
         }
 
-        void ZetaCalc_KeyPress(object sender, KeyPressEventArgs e)
+        void LambdaCalc_KeyPress(object sender, KeyPressEventArgs e)
         {
             switch (e.KeyChar)
             {
