@@ -12,7 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{DC8E1F25-FDA1-4CCC-9703-78E2E6C4C232}
+AppId={{2EF5A901-3310-4F8E-8125-B9F68AA36088}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -20,12 +20,12 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={pf}\Lambda Centauri\Lambda Telnet
-DefaultGroupName=Lambda Centauri\{#MyAppName}
+DefaultDirName={pf}\{#MyAppPublisher}\{#MyAppName}
+DefaultGroupName={#MyAppPublisher}\{#MyAppName}
 DisableProgramGroupPage=yes
 LicenseFile={#ProjectDir}\License.txt
 OutputDir={#ProjectDir}\installer\
-OutputBaseFilename=LambdaCalc1.02Setup
+OutputBaseFilename=LambdaCalc{#MyAppVersion}Setup
 SetupIconFile={#ProjectDir}\calc.ico
 Compression=lzma
 SolidCompression=yes
@@ -38,7 +38,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "{#ProjectDir}\bin\Release\LambdaCalc.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#ProjectDir}\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

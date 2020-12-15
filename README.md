@@ -14,3 +14,15 @@ https://github.com/Xangis/ZetaCalc/blob/master/installer/ZetaCalc1.01Setup.exe
 
 This application is no longer actively maintained, and I'm unlikely to accept pull requests.
 It was more of an experiment to build a basic calculator using C# than a serious product.
+
+# Changelog
+
+﻿## Changes in Version 1.02:
+
+Made the UI and buttons slightly larger with bold text.
+Made the app DPI-aware by adding a manifest file.
+
+## Changes in Version 1.01:
+
+Fixed keyboard handling
+
